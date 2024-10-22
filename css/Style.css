@@ -11,6 +11,21 @@ body {
     margin: 0;
 }
 
+header{
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li{
+    margin: 0 10px;
+}
+
 .container {
     text-align: center;
 }
@@ -23,8 +38,8 @@ body {
 
 h1 {
     font-family: "Didact Gothic", sans-serif;
-    font-size: 80pt;
-    font-weight: bolder;
+    font-size: 30pt;
+    font-weight: bold;
     color: #FEBF04;
     -webkit-text-stroke-width: 3pt;
     -webkit-text-stroke-color: #583804;

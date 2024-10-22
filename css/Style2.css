@@ -12,8 +12,23 @@ body {
     color: black;
   }
 
+  p{
+    word-break: break-all;
+  }
+
   div{
     display: inline-block;
+  }
+
+  .espaço{
+    display: block;
+  }
+
+  .recipe{
+    border-radius: 25px;
+    background-color: #f0f0f07e;
+    padding: 20px;
+    margin: 10px;
   }
   
   header {
